@@ -2,13 +2,11 @@
 using namespace std;
 
 int main(){
-  int numero1, numero2, suma;
-  cout << "Ingrese el primer numero: ";
-  cin >> numero1;
-  cout << "Ingrese el segundo numero: ";
-  cin >> numero2;
-  for (int i = numero1; i <= numero2; i++){
-      suma = suma + i;
+  int numero = 0;
+  while (numero <= 100){
+    if (numero % 2 == 0){
+    cout << numero << endl;
+      }
+numero = numero + 1;
   }
-  cout << "La suma es: " << suma;
 }
